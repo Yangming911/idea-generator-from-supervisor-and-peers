@@ -46,7 +46,7 @@ ideas           →  Generate novel research ideas with novelty verification
 
 ```bash
 # Clone the repository
-git clone https://github.com/ybq22/idea-generator-from-supervisor-and-peers.git
+git clone https://github.com/Yangming911/idea-generator-from-supervisor-and-peers.git
 
 # Copy skills to Claude Code skills directory
 cp -r idea-generator-from-supervisor-and-peers/distill-mentor ~/.claude/skills/
@@ -198,6 +198,6 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 **Made with Claude Code & Human Collaboration**
 
-[Get Started](https://github.com/ybq22/idea-generator-from-supervisor-and-peers) | [Report Issues](https://github.com/ybq22/idea-generator-from-supervisor-and-peers/issues) | [Upstream Project](https://github.com/ybq22/supervisor)
+[Get Started](https://github.com/Yangming911/idea-generator-from-supervisor-and-peers) | [Report Issues](https://github.com/Yangming911/idea-generator-from-supervisor-and-peers/issues) | [Upstream Project](https://github.com/ybq22/supervisor)
 
 </div>
