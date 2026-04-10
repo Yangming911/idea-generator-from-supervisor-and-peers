@@ -1,6 +1,6 @@
 <div align="center">
 
-# Claude Mentor Skills
+# Idea Generator from Supervisor and Peers
 
 ### Distill academic mentors into AI skills, generate research ideas, and discover peer groups
 
@@ -46,12 +46,12 @@ ideas           →  Generate novel research ideas with novelty verification
 
 ```bash
 # Clone the repository
-git clone https://github.com/ybq22/claude-mentor-skills.git
+git clone https://github.com/ybq22/idea-generator-from-supervisor-and-peers.git
 
 # Copy skills to Claude Code skills directory
-cp -r claude-mentor-skills/distill-mentor ~/.claude/skills/
-cp -r claude-mentor-skills/ideas ~/.claude/skills/
-cp -r claude-mentor-skills/scout-peers ~/.claude/skills/
+cp -r idea-generator-from-supervisor-and-peers/distill-mentor ~/.claude/skills/
+cp -r idea-generator-from-supervisor-and-peers/ideas ~/.claude/skills/
+cp -r idea-generator-from-supervisor-and-peers/scout-peers ~/.claude/skills/
 
 # Install dependencies for distill-mentor
 cd ~/.claude/skills/distill-mentor && npm install
@@ -106,7 +106,7 @@ This mode is useful when:
 ## Project Structure
 
 ```
-claude-mentor-skills/
+idea-generator-from-supervisor-and-peers/
 ├── distill-mentor/           # Mentor distillation skill
 │   ├── SKILL.md              # Skill entry point
 │   ├── prompts/              # Prompt templates
@@ -198,6 +198,6 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 **Made with Claude Code & Human Collaboration**
 
-[Get Started](https://github.com/ybq22/claude-mentor-skills) | [Report Issues](https://github.com/ybq22/claude-mentor-skills/issues) | [Upstream Project](https://github.com/ybq22/supervisor)
+[Get Started](https://github.com/ybq22/idea-generator-from-supervisor-and-peers) | [Report Issues](https://github.com/ybq22/idea-generator-from-supervisor-and-peers/issues) | [Upstream Project](https://github.com/ybq22/supervisor)
 
 </div>
