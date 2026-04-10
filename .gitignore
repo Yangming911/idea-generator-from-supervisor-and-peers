@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Personal mentor data
+xiang-yin/
+*.reading-list.json
+
+# Local-only prompts
+distill-mentor/prompts/reading-list-analyzer.md
+
+# Generated outputs
+mentors/
+reports/
+ideas/output/
+peers/
+
+# Claude Code local config
+.claude/
+
+# OS
+.DS_Store
+
+# Test artifacts
+test-deep-analysis-report.md
+
+# Archive (old upstream code)
+distill-mentor/archive/
+
+# Personal assets
+distill-mentor/assets/wechat-qr.jpg
+
+# Internal design docs
+distill-mentor/docs/superpowers/
