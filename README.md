@@ -63,14 +63,14 @@ cd ~/.claude/skills/distill-mentor && npm install
 # Step 1: Generate a mentor skill
 /distill-mentor "Geoffrey Hinton" --affiliation "University of Toronto"
 
-# Step 2: Chat with your digital mentor
-/geoffrey-hinton What are the most promising research directions in deep learning?
-
-# Step 3: Discover complementary research groups
+# Step 2: Discover complementary research groups
 /scout-peers geoffrey-hinton
 
-# Step 4: Generate research ideas
+# Step 3: Generate research ideas
 /ideas geoffrey-hinton
+
+# (Optional) Chat with your digital mentor
+/geoffrey-hinton What are the most promising research directions in deep learning?
 ```
 
 ---
