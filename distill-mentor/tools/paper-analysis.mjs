@@ -478,7 +478,7 @@ async function analyzeAuthorPapers(authorName, arxivPapers = [], options = {}) {
  * @param {Object} analysis - 分析结果
  */
 async function saveAnalysisReport(authorName, analysis) {
-  const reportsDir = '/Users/yuebaoqing/Desktop/projects/distill-human/supervisor/reports';
+  const reportsDir = new URL('../reports', import.meta.url).pathname;
   await fs.mkdir(reportsDir, { recursive: true });
 
   const fileName = `${authorName.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g, '_')}_analysis.json`;

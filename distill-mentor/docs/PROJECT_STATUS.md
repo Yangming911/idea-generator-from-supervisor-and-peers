@@ -20,13 +20,13 @@
 ## 核心交付物
 
 ### 1. 主程序
-- **文件**: `/Users/yuebaoqing/Desktop/projects/distill-human/supervisor/distill-mentor.md`
+- **文件**: `distill-mentor/SKILL.md`
 - **类型**: Claude Code Skill
 - **代码行数**: 678 行
 - **功能**: 完整的导师蒸馏系统
 
 ### 2. 测试套件
-- **文件**: `/Users/yuebaoqing/Desktop/projects/distill-human/supervisor/tests/test-distill-mentor.js`
+- **文件**: `distill-mentor/tests/test-distill-mentor.js`
 - **测试用例**: 5 个
 - **通过率**: 100%
 - **覆盖**: 核心功能 + 边界情况

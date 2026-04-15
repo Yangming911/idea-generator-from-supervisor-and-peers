@@ -322,22 +322,6 @@ Join our Discord server for real-time discussions with users worldwide:
 
 **Join the discussion:** [https://discord.gg/4KhRcn6Sf6](https://discord.gg/4KhRcn6Sf6)
 
-### 🇨🇳 WeChat Group
-
-Scan the QR code to join our WeChat group:
-
-<div align="center">
-
-<img src="assets/wechat-qr.jpg" alt="WeChat QR Code" width="200"/>
-
-</div>
-
-**WeChat group for:**
-- 💡 Sharing experiences and best practices
-- 🐛 Reporting issues and suggestions
-- 📚 Getting project updates
-- 🤝 Connecting with like-minded people
-
 ---
 
 ## 🧪 Development

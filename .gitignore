@@ -3,7 +3,8 @@ node_modules/
 package-lock.json
 
 # Personal mentor data
-xiang-yin/
+# Personal mentor skill instances (add your mentor dirs here)
+# e.g. geoffrey-hinton/
 *.reading-list.json
 
 # Local-only prompts

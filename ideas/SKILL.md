@@ -19,7 +19,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep, WebSearch, WebFetch, Task
 
 Activate when the user says:
 - `/ideas` or `/ideas <mentor-skill-name>`
-- `/ideas xiang-yin --count 20 --months 3`
+- `/ideas your-mentor --count 20 --months 3`
 - "帮我生成研究 idea"
 - "Generate research ideas based on <mentor>"
 
@@ -27,7 +27,7 @@ Activate when the user says:
 
 | 参数 | 说明 | 默认值 |
 |:---|:---|:---|
-| `<mentor-skill-name>` | 导师 skill 名称（如 `xiang-yin`） | 自动检测 `~/.claude/skills/` 中的导师 skill |
+| `<mentor-skill-name>` | 导师 skill 名称（如 `your-mentor`） | 自动检测 `~/.claude/skills/` 中的导师 skill |
 | `--count <N>` | 生成 idea 数量 | 20 |
 | `--months <N>` | arxiv 论文检索时间范围（最近 N 个月） | 3 |
 | `--save <dir>` | 保存目录 | 当前工作目录下的 `ideas/` |
@@ -305,15 +305,15 @@ B = 其他
 ### 基本用法
 
 ```
-/ideas xiang-yin
+/ideas your-mentor
 ```
 
-生成 20 个 idea，基于殷翔教授的研究画像，检索最近 3 个月 arxiv 论文，全时段查重后输出到 `ideas/` 目录。
+生成 20 个 idea，基于导师的研究画像，检索最近 3 个月 arxiv 论文，全时段查重后输出到 `ideas/` 目录。
 
 ### 自定义参数
 
 ```
-/ideas xiang-yin --count 10 --months 2 --save ./my-ideas
+/ideas your-mentor --count 10 --months 2 --save ./my-ideas
 ```
 
 生成 10 个 idea，检索最近 2 个月论文，保存到 `./my-ideas/` 目录。
@@ -321,7 +321,7 @@ B = 其他
 ### 仅查重已有 idea
 
 ```
-/ideas xiang-yin --verify-only
+/ideas your-mentor --verify-only
 ```
 
 对 `ideas/` 目录中最新的 idea 文件执行全时段查重。
@@ -341,7 +341,7 @@ B = 其他
 本 skill 是导师 skill 的 **下游消费者**：
 
 ```
-distill-mentor → 生成导师 skill (xiang-yin/SKILL.md)
+distill-mentor → 生成导师 skill (<mentor-name>/SKILL.md)
                        ↓
 ideas skill   → 读取导师研究画像 → 生成 idea → 查重 → 输出
 ```

@@ -19,7 +19,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep, WebSearch, WebFetch, Task
 
 Activate when the user says:
 - `/scout-peers` or `/scout-peers <mentor-skill-name>`
-- `/scout-peers xiang-yin --count 12`
+- `/scout-peers your-mentor --count 12`
 - "帮我找相关课题组" / "发现互补课题组"
 - "Find peer research groups for <mentor>"
 
@@ -27,7 +27,7 @@ Activate when the user says:
 
 | 参数 | 说明 | 默认值 |
 |:---|:---|:---|
-| `<mentor-skill-name>` | 导师 skill 名称（如 `xiang-yin`） | 自动检测 `~/.claude/skills/` 中的导师 skill |
+| `<mentor-skill-name>` | 导师 skill 名称（如 `your-mentor`） | 自动检测 `~/.claude/skills/` 中的导师 skill |
 | `--count <N>` | 最终输出的课题组数量 | 8-12（自动根据质量调整） |
 | `--save <dir>` | 保存目录 | 当前工作目录下的 `peers/` |
 
@@ -311,15 +311,15 @@ ideas skill    → 读取导师画像 ──────────────
 ### 基本用法
 
 ```
-/scout-peers xiang-yin
+/scout-peers your-mentor
 ```
 
-基于殷翔教授的导师 skill，发现 8-12 个互补课题组，保存到 `peers/peers_xiang-yin_<date>.md`。
+基于导师的 skill，发现 8-12 个互补课题组，保存到 `peers/peers_<mentor>_<date>.md`。
 
 ### 自定义参数
 
 ```
-/scout-peers xiang-yin --count 15 --save ./my-peers
+/scout-peers your-mentor --count 15 --save ./my-peers
 ```
 
 发现 15 个课题组，保存到 `./my-peers/` 目录。
